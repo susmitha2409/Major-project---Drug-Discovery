@@ -1,12 +1,53 @@
-# Major-project---Drug-Discovery
-This project creates a model to predict strain-specific drug combinations using gene data, with the best of five tested models selected. Users can find drug combinations via a Streamlit interface, and results are visualized in a Power BI dashboard.
 Drug Combination Prediction using Machine Learning with Gene Information Integration
-
 This project focuses on developing a machine learning model to predict optimal drug combinations by incorporating gene information. The primary aim is to identify strain-specific drug combinations, moving beyond species-specific predictions.
 
-Key Features:
-Machine Learning Models: Five different machine learning models were implemented to tackle the classification task. The best-performing model was selected based on performance metrics.
-Fingerprint Selection: Three types of molecular fingerprints—ECFP, Morgan, and MCC key—were evaluated, with the most effective one chosen for the final classification.
-User-Friendly Interface: A streamlined interface was developed using Streamlit, allowing users to input drug names and retrieve the most suitable drug combinations.
-Data Visualization: A comprehensive Power BI dashboard was created to visualize and analyze the dataset, enhancing the interpretability of results.
-This repository contains all the necessary code, datasets, and documentation to replicate the model and interface, along with the Power BI dashboard files.
+Key Features
+Machine Learning Models:
+
+Implemented five different machine learning models for the classification task.
+Selected the best-performing model based on performance metrics.
+Fingerprint Selection:
+
+Evaluated three types of molecular fingerprints: ECFP, Morgan, and MCC key.
+Chose the most effective fingerprint for the final classification.
+User-Friendly Interface:
+
+Developed a Streamlit interface where users can input drug names and retrieve the most suitable drug combinations.
+Data Visualization:
+
+Created a Power BI dashboard to visualize and analyze the dataset, enhancing the interpretability of results.
+Project Structure
+code/: Contains the Python scripts used for model training, evaluation, and the Streamlit interface.
+data/: Includes the datasets used in the project.
+dashboard/: Power BI files and related resources.
+notebooks/: Jupyter notebooks used during the research and development phase.
+README.md: This file, providing an overview of the project.
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/drug-combination-prediction.git
+Navigate to the project directory:
+bash
+Copy code
+cd drug-combination-prediction
+Install the required Python packages:
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Run the Streamlit interface:
+
+bash
+Copy code
+streamlit run app.py
+Enter the drug name in the interface to find the optimal combination.
+Power BI Dashboard:
+
+Open the provided .pbix file in Power BI to explore the data visualizations.
+Contributing
+Feel free to fork the repository and make improvements. Pull requests are welcome!
+
+
+Acknowledgments
+Special thanks to SASTRA University for their support.
